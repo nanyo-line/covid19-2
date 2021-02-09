@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    width: 400px;
+    width: 370px;
 }
 
 
@@ -17,7 +17,7 @@ pre {
     font-size: 1.2em;
 	padding: 1em;
 	border: 1px solid #000;
-	width: 400;
+	width: 370;
 	_width: 90%;
 	overflow: auto;
 	_overflow: scroll;
