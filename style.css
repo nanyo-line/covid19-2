@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     width: 400px;
 }
@@ -32,36 +34,36 @@ pre {
 }
 
 
-/* ƒŒƒCƒAƒEƒg˜g
+/* ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆæ 
 ----------------------------------------------------- */
-/*ŠpŠÛ‚ÅˆÍ‚Ş*/
+/*è§’ä¸¸ã§å›²ã‚€*/
 .kakomi {
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
-    color: #6091d3;/*•¶šF*/
+    color: #6091d3;/*æ–‡å­—è‰²*/
     background: #FFF;
-    border: solid 3px #ff0000;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #ff0000;/*ç·š*/
+    border-radius: 10px;/*è§’ã®ä¸¸ã¿*/
 }
 .kakomi p {
     margin: 0;
     padding: 0;
 }
 
-/*”wŒi‚ğ“h‚è‚Â‚Ô‚·*/
+/*èƒŒæ™¯ã‚’å¡—ã‚Šã¤ã¶ã™*/
 .kakomi2 {
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #2c2c2f;
-    background: #cde4ff;/*”wŒiF*/
+    background: #cde4ff;/*èƒŒæ™¯è‰²*/
 }
 .kakomi2 p {
     margin: 0; 
     padding: 0;
 }
 
-/*ã‰º‚É‚¾‚¯ü*/
+/*ä¸Šä¸‹ã«ã ã‘ç·š*/
 .kakomi3{
     padding: 8px 19px;
     margin: 2em 0;
@@ -75,33 +77,33 @@ pre {
     padding: 0;
 }
 
-/*ˆÍ‚İ˜g‚ğ”jü*/
+/*å›²ã¿æ ã‚’ç ´ç·š*/
 .kakomi4 {
     padding: 0.5em 1em;
     margin: 2em 0;
     background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*“_ü*/
+    border: dashed 2px #5b8bd0;/*ç‚¹ç·š*/
 }
 .kakomi4 p {
     margin: 0; 
     padding: 0;
 }
 
-/*¶‰E“ñdü*/
+/*å·¦å³äºŒé‡ç·š*/
 .kakomi5{
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #474747;
-    background: whitesmoke;/*”wŒiF*/
-    border-left: double 7px #4ec4d3;/*¶ü*/
-    border-right: double 7px #4ec4d3;/*‰Eü*/
+    background: whitesmoke;/*èƒŒæ™¯è‰²*/
+    border-left: double 7px #4ec4d3;/*å·¦ç·š*/
+    border-right: double 7px #4ec4d3;/*å³ç·š*/
 }
 .kakomi5 p {
     margin: 0; 
     padding: 0;
 }
 
-/*¶‚É‚¾‚¯‘¾ü*/
+/*å·¦ã«ã ã‘å¤ªç·š*/
 .kakomi6 {
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -114,7 +116,7 @@ pre {
     padding: 0;
 }
 
-/*ã‚É‚¾‚¯‘¾ü*/
+/*ä¸Šã«ã ã‘å¤ªç·š*/
 .kakomi8 {
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -127,21 +129,21 @@ pre {
     padding: 0;
 }
 
-/*ã‚É‚¾‚¯‘¾ü ‰e‚ğ‚Â‚¯‚½ê‡*/
+/*ä¸Šã«ã ã‘å¤ªç·š å½±ã‚’ã¤ã‘ãŸå ´åˆ*/
 .kakomi9 {
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #00BCD4;
-    background: #e4fcff;/*”wŒiF*/
+    background: #e4fcff;/*èƒŒæ™¯è‰²*/
     border-top: solid 6px #1dc1d6;
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*‰e*/
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*å½±*/
 }
 .kakomi9 p {
     margin: 0; 
     padding: 0;
 }
 
-/*ƒXƒ}[ƒg‚ÈƒfƒUƒCƒ“‚É*/
+/*ã‚¹ãƒãƒ¼ãƒˆãªãƒ‡ã‚¶ã‚¤ãƒ³ã«*/
 .kakomi10{
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -156,7 +158,7 @@ pre {
 }
 
 
-/*‚©‚í‚¢‚¢ •z•—*/
+/*ã‹ã‚ã„ã„ å¸ƒé¢¨*/
 .kakomi11{
     padding: 0.2em 0.5em;
     margin: 2em 0;
@@ -169,7 +171,7 @@ pre {
     padding: 0;
 }
 
-/*‚©‚í‚¢‚¢ ƒsƒ“ƒNver*/
+/*ã‹ã‚ã„ã„ ãƒ”ãƒ³ã‚¯ver*/
 .kakomi12 {
     padding: 0.2em 0.5em;
     margin: 2em 0;
@@ -184,7 +186,7 @@ pre {
     padding: 0;
 }
 
-/*‚©‚í‚¢‚¢ ƒXƒgƒ‰ƒCƒv*/
+/*ã‹ã‚ã„ã„ ã‚¹ãƒˆãƒ©ã‚¤ãƒ—*/
 .kakomi13{
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -196,7 +198,7 @@ pre {
     padding: 0;
 }
 
-/*‚¨‚µ‚á‚ê‚È Œğ·ü*/
+/*ãŠã—ã‚ƒã‚Œãª äº¤å·®ç·š*/
 .kakomi14{
     margin:2em 0;
     position: relative;
@@ -220,7 +222,7 @@ pre {
     padding: 0;
 }
 
-/*‚¨‚µ‚á‚ê‚È Šp‚É‰~Œ`*/
+/*ãŠã—ã‚ƒã‚Œãª è§’ã«å††å½¢*/
 .kakomi15{
     margin:2em 0;
     position: relative;
@@ -250,7 +252,7 @@ pre {
     padding: 0;
 }
 
-/*‚¨‚µ‚á‚ê‚È ƒJƒMƒJƒbƒR*/
+/*ãŠã—ã‚ƒã‚Œãª ã‚«ã‚®ã‚«ãƒƒã‚³*/
 .kakomi16 {
     position: relative;
     padding:0.25em 1em;
@@ -279,7 +281,7 @@ pre {
     padding: 0;
 }
 
-/*‚¨‚µ‚á‚ê‚È “_ü‚Ì‘åŠ‡ŒÊ*/
+/*ãŠã—ã‚ƒã‚Œãª ç‚¹ç·šã®å¤§æ‹¬å¼§*/
 .kakomi17 {
     position: relative;
     padding: 0.25em 1em;
@@ -314,7 +316,7 @@ pre {
 }
 
 
-/*‚¨‚µ‚á‚ê‚È ƒOƒ‰ƒf[ƒVƒ‡ƒ“*/
+/*ãŠã—ã‚ƒã‚Œãª ã‚°ãƒ©ãƒ‡ãƒ¼ã‚·ãƒ§ãƒ³*/
 .kakomi18{
     padding: 0.5em 1em;
     background: -moz-linear-gradient(#ffb03c, #ff708d);
@@ -327,7 +329,7 @@ pre {
     padding: 0;
 }
 
-/*‚¨‚µ‚á‚ê‚È †•—*/
+/*ãŠã—ã‚ƒã‚Œãª ç´™é¢¨*/
 .kakomi19{
     padding: 0.5em 1em;
     margin: 1em 0;
@@ -340,7 +342,7 @@ pre {
     padding: 0;
 }
 
-/*‚¨‚µ‚á‚ê‚È l‚¦‚²‚Æ•—*/
+/*ãŠã—ã‚ƒã‚Œãª è€ƒãˆã”ã¨é¢¨*/
 .kakomi20 {
     position: relative;
     margin: 2em 0 2em 40px;
@@ -370,7 +372,7 @@ pre {
     padding: 0;
 }
 
-/*‚¨‚µ‚á‚ê‚È ‚«o‚µ*/
+/*ãŠã—ã‚ƒã‚Œãª å¹ãå‡ºã—*/
 .kakomi21 {
     position: relative;
     padding: 0.5em 0.7em;
@@ -395,7 +397,7 @@ pre {
 }
 
 
-/*‚¨‚µ‚á‚ê‚È ‚ß‚­‚ê‚½ƒe[ƒv*/
+/*ãŠã—ã‚ƒã‚Œãª ã‚ãã‚ŒãŸãƒ†ãƒ¼ãƒ—*/
 .kakomi22{
     position: relative;
     background: #fff0cd;
@@ -420,7 +422,7 @@ pre {
 }
 
 
-/*ƒ^ƒCƒgƒ‹•t‚« ˜g‚Ì“r’†‚Éƒ^ƒCƒgƒ‹*/
+/*ã‚¿ã‚¤ãƒˆãƒ«ä»˜ã æ ã®é€”ä¸­ã«ã‚¿ã‚¤ãƒˆãƒ«*/
 .kakomi23 {
     position: relative;
     margin: 2em 0;
@@ -445,7 +447,7 @@ pre {
     padding: 0;
 }
 
-/*ƒ^ƒCƒgƒ‹•t‚« ƒ‰ƒxƒ‹*/
+/*ã‚¿ã‚¤ãƒˆãƒ«ä»˜ã ãƒ©ãƒ™ãƒ«*/
 .kakomi24 {
     position: relative;
     margin: 2em 0;
@@ -472,7 +474,7 @@ pre {
 }
 
 
-/*ƒ^ƒCƒgƒ‹•t‚« ƒ{ƒbƒNƒX“à‚Éƒ‰ƒxƒ‹*/
+/*ã‚¿ã‚¤ãƒˆãƒ«ä»˜ã ãƒœãƒƒã‚¯ã‚¹å†…ã«ãƒ©ãƒ™ãƒ«*/
 .kakomi25 {
     position: relative;
     margin: 2em 0;
@@ -498,7 +500,7 @@ pre {
 }
 
 
-/*ƒ^ƒCƒgƒ‹•t‚« ƒ^ƒCƒgƒ‹‚ğ‰¡‚¢‚Á‚Ï‚¢*/
+/*ã‚¿ã‚¤ãƒˆãƒ«ä»˜ã ã‚¿ã‚¤ãƒˆãƒ«ã‚’æ¨ªã„ã£ã±ã„*/
 .kakomi26 {
     margin: 2em 0;
     background: #dcefff;
@@ -518,7 +520,7 @@ pre {
 }
 
 
-/*ƒ^ƒCƒgƒ‹•t‚« ƒ^ƒCƒgƒ‹‚ğ‰¡‚¢‚Á‚Ï‚¢‰e*/
+/*ã‚¿ã‚¤ãƒˆãƒ«ä»˜ã ã‚¿ã‚¤ãƒˆãƒ«ã‚’æ¨ªã„ã£ã±ã„å½±*/
 .kakomi27 {
     margin: 2em 0;
     background: #f1f1f1;
@@ -538,7 +540,7 @@ pre {
     margin: 0;
 }
 
-/* ‚Qs–Úš‰º‚°ƒCƒ“ƒfƒ“ƒg
+/* ï¼’è¡Œç›®å­—ä¸‹ã’ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆ
 ----------------------------------------------------- */
 p.indent-1{
     padding-left:1em;
@@ -553,7 +555,7 @@ p.indent-6{
     text-indent:-6em;
 }
 
-/* •¡”s‚ÅA•¶š‚Ì—]”’‚Ææ“ª‚ğ‘µ‚¦‚é —á)<span class="word6">Œ`‹à</span>11:00`16:00
+/* è¤‡æ•°è¡Œã§ã€æ–‡å­—ã®ä½™ç™½ã¨å…ˆé ­ã‚’æƒãˆã‚‹ ä¾‹)<span class="word6">æœˆï½é‡‘</span>11:00ï½16:00
 ----------------------------------------------------- */
 span.word6 {
     display: inline-block;
@@ -565,7 +567,7 @@ span.word7 {
     width:7em;
 }
 
-/* ƒXƒ}ƒz—p li‚É‚æ‚éš‰º‚°‚ğ‚È‚­‚·
+/* ã‚¹ãƒãƒ›ç”¨ liã«ã‚ˆã‚‹å­—ä¸‹ã’ã‚’ãªãã™
 ----------------------------------------------------- */
 @media only screen and (max-width: 599px) {
     li.no-li-indent {
