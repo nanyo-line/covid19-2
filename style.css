@@ -1,0 +1,575 @@
+body {
+    width: 400px;
+}
+
+
+h1 {
+font-size: 2em;
+}
+
+p {
+font-size: 1.2em;
+}
+
+pre {
+	padding: 1em;
+	border: 1px solid #000;
+	width: 400;
+	_width: 90%;
+	overflow: auto;
+	_overflow: scroll;
+	color: #000;
+	background-color: #f6f6f6;
+	white-space: pre-wrap ;
+}
+
+
+.content{
+
+    height: 600px;
+    background-color: #eee;
+    text-align: center;
+}
+
+
+/* レイアウト枠
+----------------------------------------------------- */
+/*角丸で囲む*/
+.kakomi {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #ff0000;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.kakomi p {
+    margin: 0;
+    padding: 0;
+}
+
+/*背景を塗りつぶす*/
+.kakomi2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #cde4ff;/*背景色*/
+}
+.kakomi2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*上下にだけ線*/
+.kakomi3{
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #cde4ff;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+}
+.kakomi3 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*囲み枠を破線*/
+.kakomi4 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.kakomi4 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*左右二重線*/
+.kakomi5{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
+}
+.kakomi5 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*左にだけ太線*/
+.kakomi6 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+.kakomi7 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*上にだけ太線*/
+.kakomi8 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #ff7d6e;
+    background: #ffebe9;
+    border-top: solid 10px #ff7d6e;
+}
+.kakomi8 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*上にだけ太線 影をつけた場合*/
+.kakomi9 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #00BCD4;
+    background: #e4fcff;/*背景色*/
+    border-top: solid 6px #1dc1d6;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+}
+.kakomi9 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*スマートなデザインに*/
+.kakomi10{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.kakomi10 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/*かわいい 布風*/
+.kakomi11{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: #d6ebff;
+    box-shadow: 0px 0px 0px 10px #d6ebff;
+    border: dashed 2px white;
+}
+.kakomi11 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*かわいい ピンクver*/
+.kakomi12 {
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    color: #565656;
+    background: #ffeaea;
+    box-shadow: 0px 0px 0px 10px #ffeaea;
+    border: dashed 2px #ffc3c3;
+    border-radius: 8px;
+}
+.kakomi12 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*かわいい ストライプ*/
+.kakomi13{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+.kakomi13 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*おしゃれな 交差線*/
+.kakomi14{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.kakomi14:before, .kakomi14:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.kakomi14:before {left: 10px;}
+.kakomi14:after {right: 10px;}
+.kakomi14 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*おしゃれな 角に円形*/
+.kakomi15{
+    margin:2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+.kakomi15:before,.kakomi15:after
+{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+.kakomi15:after {
+    top:-12px;
+    left:-12px;
+}
+.kakomi15:before {
+    bottom:-12px;
+    right:-12px;
+}
+.kakomi15 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*おしゃれな カギカッコ*/
+.kakomi16 {
+    position: relative;
+    padding:0.25em 1em;
+}
+.kakomi16:before,.kakomi16:after{ 
+    content:'';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.kakomi16:before{
+    border-left: solid 1px #5767bf;
+    border-top: solid 1px #5767bf;
+    top:0;
+    left: 0;
+}
+.kakomi16:after{
+    border-right: solid 1px #5767bf;
+    border-bottom: solid 1px #5767bf;
+    bottom:0;
+    right: 0;
+}
+.kakomi16 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*おしゃれな 点線の大括弧*/
+.kakomi17 {
+    position: relative;
+    padding: 0.25em 1em;
+    margin: 2em 0;
+    top: 0;
+    background: #efefef;
+}
+.kakomi17:before, .kakomi17:after{ 
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 10px;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.kakomi17:before{
+    border-left: dotted 2px #15adc1;
+    border-top: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    left: 0;
+}
+.kakomi17:after{
+    border-top: dotted 2px #15adc1;
+    border-right: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    right: 0;
+}
+.kakomi17 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/*おしゃれな グラデーション*/
+.kakomi18{
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    color: #FFF;
+}
+.kakomi18 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*おしゃれな 紙風*/
+.kakomi19{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #5bb7ae;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+.kakomi19 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*おしゃれな 考えごと風*/
+.kakomi20 {
+    position: relative;
+    margin: 2em 0 2em 40px;
+    padding: 8px 15px;
+    background: #fff0c6;
+    border-radius: 30px;
+}
+.kakomi20:before{font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 15px;
+    left: -40px;
+    bottom: 0;
+    color: #fff0c6;
+}
+.kakomi20:after{
+    font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 23px;
+    left: -23px;
+    bottom: 0;
+    color: #fff0c6;
+}
+.kakomi20 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*おしゃれな 吹き出し*/
+.kakomi21 {
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #e6f4ff;
+    color: #5c98d4;
+    font-weight: bold;
+}
+.kakomi21:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #e6f4ff;
+    width: 0;
+    height: 0;
+}
+.kakomi21 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/*おしゃれな めくれたテープ*/
+.kakomi22{
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+}
+.kakomi22:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.kakomi22 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/*タイトル付き 枠の途中にタイトル*/
+.kakomi23 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.kakomi23 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.kakomi23 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*タイトル付き ラベル*/
+.kakomi24 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+}
+.kakomi24 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.kakomi24 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/*タイトル付き ボックス内にラベル*/
+.kakomi25 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FF0000;
+}
+.kakomi25 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FF0000;
+    color: #ffffff;
+    font-weight: bold;
+}
+.kakomi25 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/*タイトル付き タイトルを横いっぱい*/
+.kakomi26 {
+    margin: 2em 0;
+    background: #dcefff;
+}
+.kakomi26 .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.kakomi26 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+
+/*タイトル付き タイトルを横いっぱい影*/
+.kakomi27 {
+    margin: 2em 0;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.kakomi27 .box-title {
+    font-size: 1.2em;
+    background: #5fc2f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.kakomi27 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+/* ２行目字下げインデント
+----------------------------------------------------- */
+p.indent-1{
+    padding-left:1em;
+    text-indent:-1em;
+}
+p.indent-2{
+    padding-left:2em;
+    text-indent:-2em;
+}
+p.indent-6{
+    padding-left:6em;
+    text-indent:-6em;
+}
+
+/* 複数行で、文字の余白と先頭を揃える 例)<span class="word6">月～金</span>11:00～16:00
+----------------------------------------------------- */
+span.word6 {
+    display: inline-block;
+    width:6em;
+}
+
+span.word7 {
+    display: inline-block;
+    width:7em;
+}
+
+/* スマホ用 liによる字下げをなくす
+----------------------------------------------------- */
+@media only screen and (max-width: 599px) {
+    li.no-li-indent {
+        list-style:  none;
+        margin-left:  -40px;
+    }
+}
