@@ -83,7 +83,7 @@ vertical-align: top;
  position: relative;
  margin: 0.3em auto;
  padding: 2.5em 1em 1em;
- width: 90%; /* ボックス幅 */
+ width: 85%; /* ボックス幅 */
  border-style: solid;
  border-color: #ff0000; /* 枠の色 */
  border-width: 5px 1px 1px;
