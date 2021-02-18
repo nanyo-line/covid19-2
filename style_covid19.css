@@ -82,7 +82,7 @@ vertical-align: top;
 .kakomi-smart2 {
  position: relative;
  margin: 0.3em auto;
- padding: 2.5em 1em 1em;
+ padding: 2.5em .5em 1em;
  width: 85%; /* ボックス幅 */
  border-style: solid;
  border-color: #ff0000; /* 枠の色 */
@@ -95,7 +95,7 @@ vertical-align: top;
 .title-smart2 {
  position: absolute;
  top: 8px;
- left: 15px;
+ left: 10px;
  background-color: #f7f7f7; /* タイトル背景色 */
  color: #ff0000; /* タイトル色 */
  font-size: 1.1em;
