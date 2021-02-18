@@ -90,6 +90,7 @@ vertical-align: top;
  background-color: #f7f7f7; /* 背景色 */
  color: #666; /* テキスト色 */
  box-shadow: 1px 1px 3px #ccc; /* 影 */
+ text-align: left;
 }
 
 .title-smart2 {
